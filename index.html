@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snakopedia</title>
+    <link rel="icon" type="image/png" href="vasuki.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chokokutai&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="logo chokokutai-regular">
+        <a href="https://u-imbecile.github.io/capstone-Portfolio/">satyajeet</a>
+      </div>
+      <nav class="nav-menu">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="https://u-imbecile.github.io/capstone-Portfolio/">PORTFOLIO</a>
+        <a href="./contact.html">CONTACT</a>
+      </nav>
+    </header>
+
+    <!--signup/login-->
+    <main>
+      <div class="image gridContainer">
+        <div class="leftSide">
+          <h1 class="mh">Welcome to the world of snake. <br /></h1>
+          <p class="mp">
+            <br /><br />
+            Snakes are not evil; they are misunderstood.<br />
+            Most of them are harmless and prefer to avoid<br />
+            humans. Ancient myths turned them into villains,<br />
+            but they are simply animals trying to survive.<br />
+            Their cold stare is natural, as they do not<br />
+            have eyelids to blink. People fear them<br />
+            because of stories, not because of<br />
+            facts. This site is here to reveal<br />
+            the truth: snakes are vital, not vicious.
+          </p>
+        </div>
+        <div class="rightSide">
+          <form action="signup.php" class="signup" method="post">
+            <h2>Sign up now</h2>
+            <label for="FirstName">First Name</label>
+            <input type="text" name="firstname" required />
+            <label for="LastName">Last name</label>
+            <input type="text" name="lastname" required />
+            <label for="Email">Email ID</label>
+            <input type="text" name="email" required />
+            <label for="password">Password</label>
+            <input type="text" name="password" required />
+            <button type="submit">sign up now</button>
+            <p>Already have an account login <a href="login.html">here</a></p>
+            <p style="color: rgb(241, 38, 38);">*Signup and login only if you want to recieve facts on snake.</p>
+          </form>
+        </div>
+      </div>
+      <!--snake data-->
+      <section class="snake-categories">
+        <div class="snake-row">
+          <div class="snake-box non-venomous">
+            <h2><a href="nonVenomous.html" style="text-decoration: none; color: aliceblue;">Non-Venomous Snakes</a></h2>
+          </div>
+          <div class="snake-box venomous">
+            <h2><a href="venomous.html" style="text-decoration: none; color: aliceblue;">Venomous Snakes</a></h2>
+          </div>
+        </div>
+        <div class="snake-box myths">
+          <h2><a href="mythsn.html" style="text-decoration: none; color: aliceblue;">Major Myths</a></h2>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="video-footer">
+      <video autoplay muted loop playsinline class="footer-video">
+        <source src="footsnakbg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="footer-content">
+        <!-- Navigation Links (Left) -->
+        <div class="footer-nav">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="https://u-imbecile.github.io/capstone-Portfolio/"
+            >PORTFOLIO</a
+          >
+          <a href="contact.html">CONTACT</a>
+        </div>
+
+        <!-- Social Media (Right) -->
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/-satyajeet" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://www.instagram.com/__satyajeet___/">Instagram</a>
+          <a href="https://github.com/u-imbecile" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
